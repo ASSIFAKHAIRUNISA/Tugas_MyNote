@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/button_primary">
+
+    <!-- Teks di atas tengah -->
+    <TextView
+        android:id="@+id/tvDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAIL DATA PEMILIH"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"/>
+
+    <!-- Detail Nama -->
+    <TextView
+        android:id="@+id/tvDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <!-- Detail NIK -->
+    <TextView
+        android:id="@+id/tvDetailNik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+
+    <!-- Detail Gender -->
+    <TextView
+        android:id="@+id/tvDetailGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+
+    <!-- Detail Alamat -->
+    <TextView
+        android:id="@+id/tvDetailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+
+    <!-- Tombol Close di bawah tengah -->
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/button_primary">
+
+    <!-- Teks di atas tengah -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH DATA"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Input Nama Pemilih -->
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pemilih"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- Input NIK -->
+    <EditText
+        android:id="@+id/etNIK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- Group Gender -->
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbLakiLaki"
+            android:text="Laki-laki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbPerempuan"
+            android:text="Perempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <!-- Input Alamat -->
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:minHeight="48dp"
+        android:padding="8dp" />
+
+    <!-- Button Simpan -->
+    <Button
+        android:id="@+id/btnSimpan"
+        android:text="Simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>
